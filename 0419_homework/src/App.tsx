@@ -34,7 +34,7 @@ function App() {
             <button className="btn btn-success btn-sm">
               <i>
                 <FontAwesomeIcon icon={faBook} />
-                Read More
+                &nbsp;&nbsp;Read More
               </i>
             </button>
           </div>
