@@ -9,7 +9,9 @@ const UserDetail = () => {
 
   return (
     <>
-      <Link className="link-secondary" to='/'><h3 className="mt-4 mb-4">UserList</h3></Link>
+      <Link className="link-secondary" to='/'>
+        <h3 className="mt-4 mb-4">UserList</h3>
+      </Link>
       <h3>UserDetail</h3>
       <div className="row">
         <div className="col">
