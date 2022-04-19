@@ -70,8 +70,16 @@ const UserDetail = () => {
                 <td>{userDetail.user.website}</td>
               </tr>
               <tr>
-                <th>Company</th>
+                <th rowSpan={4}>Company</th>
+              </tr>
+              <tr>
                 <td>{userDetail.user.company.name}</td>
+              </tr>
+              <tr>
+                <td>{userDetail.user.company.catchPhrase}</td>
+              </tr>
+              <tr>
+                <td>{userDetail.user.company.bs}</td>
               </tr>
             </tbody>
           </table>
