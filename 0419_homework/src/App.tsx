@@ -42,7 +42,7 @@ function App() {
 
         <div className="row">
           <div className="col">
-            <React.Suspense fallback={<p>Loading...</p>}>
+            <React.Suspense>
               {routes}
             </React.Suspense>
           </div>
